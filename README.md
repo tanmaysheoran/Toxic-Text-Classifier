@@ -3,7 +3,7 @@ A text classifier build using RNN (LSTM) to classify toxic comments
 Model Summary
 Model: "sequential"
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+Layer (type)                 Output Shape              Param    
 =================================================================
 embedding (Embedding)        (None, 1403, 32)          160000    
 _________________________________________________________________
@@ -27,7 +27,7 @@ The file contains another model with more number of LSTM layers and 6 categories
 Model 2 Summary
 Model: "sequential"
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+Layer (type)                 Output Shape              Param    
 =================================================================
 embedding (Embedding)        (None, 1403, 32)          320000    
 _________________________________________________________________
